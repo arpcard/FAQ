@@ -1,2 +1,97 @@
 # FAQ
 Frequently Asked Questions pertaining to CARD usage, CARD website navigation and RGI webtool usage.
+
+Q1: How do I cite CARD?
+
+A: Alcock et al. 2020. CARD 2020: antibiotic resistome surveillance with the Comprehensive Antibiotic Resistance Database. Nucleic Acids Research, 48, D517-D525.
+
+
+Q2: How do I contact the CARD curators or developers? 
+
+A: You can contact the CARD curators or developers directly at card@mcmaster.ca, Twitter at @arpcard, or at GitHub.
+
+
+Q3: How is the CARD curated? 
+A: The CARD is curated by a group of experts in the area of antimicrobial resistance (AMR) and bioinformatics, including consultation with outside experts where needed.
+
+
+Q4: How often is CARD updated?
+
+A: The CARD is updated monthly.
+
+
+Q5: What data can be included? Can I add unpublished data?
+
+A: Only peered reviewed, published data that is also associated with a GenBank accession can be included in the curated CARD data with the exception of beta-lactamases. We can additionally provide genome or whole-genome shotgun assembly bulk annotation for private data sets using the Resistance Gene Identifier, please contact card@mcmaster.ca.
+
+
+Q6: What has changed since the first version of the CARD, as published in McArthur et al. 2013. The Comprehensive Antibiotic Resistance Database. Antimicrobial Agents and Chemotherapy, 57, 3348-3357?
+
+A: The CARD is now more tightly focussed on antimicrobial resistance (AMR) reference sequences and associated detection models. Each sequence curated into the CARD is now associated with both the Antibiotic Resistance Ontology to provide classification and semantic context as well as defined detection models and parameters. The CARD has additionally abandoned use of internal accessions for sequences and now exclusively uses GenBank accessions.
+
+
+Q7: How do I find a list of all resistance genes in a particular organism? 
+
+A: CARD now provides annotated genomes, plasmids, and whole-genome shotgun assemblies in the Genomes & Variants section.
+
+
+Q8: Can I use the Resistance Gene Identifier offline? 
+
+A: Yes, the Resistance Gene Identifier can now be downloaded as command-line software.
+
+
+Q9: Can the SNP mapping data be downloaded? 
+
+A: Yes, the SNP mapping data is now available in the Downloads sections within the card.json and snps.txt files.
+
+
+Q10: For intrinsic resistance genes for which resistance is conferred by specific mutations, does CARD include all known mutant sequences? 
+
+A: The CARD does not contain complete sequences of resistant mutants, due to the fact the individual mutations are often reported in the literature without the complete mutant gene sequence being deposited in GenBank. Instead, the CARD maintains a complete list of all resistance SNPs relative to a reference sequence, which may either be a reported mutant sequence or a wild-type sequence. As such, it is important that SNP mapping be included in analysis of any genes that require mutation to confer resistance. This step is included in the Resistance Gene Identifier but not naive BLAST analyses. Computational predicted sequence variants are available in the Genomes & Variants section.
+
+
+Q11: How are Minimum Inhibitory Concentration (MIC) data curated? 
+
+A: The CARD does not yet curate MIC data directly, but instead records the resistance profile of resistance genes. This is performed using the categorical confers_resistance_to relationship within the Antibiotic Resistance Ontology, e.g. beta-lactamases confers_resistance_to beta-lactams, as well as the specific confers_resistance_to_drug relationship, e.g. AAC(1) confers_resistance_to_drug apramycin. The latter requires constant curatorial effort and may have gaps - please let us know if find such missing data within the CARD.
+
+
+Q12: Can CARD and the RGI accurately predict antibiogram? 
+
+A: While the CARD systematically curates categorical confers_resistance_to relationships within the Antibiotic Resistance Ontology, e.g. beta-lactamases confers_resistance_to beta-lactams, curation of specific confers_resistance_to_drug relationships, e.g. AAC(1) confers_resistance_to_drug apramycin, is rarely complete due to the volume of literature to curate, variation in MICs for genes among pathogens, and changing clinical breakpoints. As such, curation of confers_resistance_to_drug relationships for accurate prediction of antibiogram is currently inconsistent throughout the CARD and our RGI software is focussed primarily upon accurate prediction of resistome, not antibiogram. 
+
+
+Q13: Are both PERFECT and STRICT hits with the Resistance Gene Identifier (RGI) functional AMR genes? 
+
+A: If a hit is PERFECT, the predicted gene perfectly matches a known resistance gene curated in the CARD at the amino acid level (including SNPs if that is part of the detection model). Only published AMR genes, with subsequent submission of sequence to GenBank, with clear evidence of elevated MICs are curated into CARD. However, a PERFECT hit does not indicate if the AMR gene is expressed or if it results in elevated MIC in the pathogen of interest. Activity of AMR genes can be pathogen and strain specific. STRICT hits are not exact matches to a published AMR sequence, but are similar to CARD reference sequences within detection model cut-offs defined by the CARD curators. STRICT hits are likely functional, but those with low percent similarity to the curated CARD reference sequence may require experimental verification. 
+
+
+Q14: Does the Resistance Gene Identifier (RGI) work for metagenomics data? 
+
+A: Yes, the RGI can analyze metagenomics data at the command line. Full details are available at GitHub. 
+
+
+Q15: What are Percent Identity, Bitscore, and E-value? 
+
+A: From the NCBI BLAST Glossary, percent identity is the extent to which two (nucleotide or amino acid) sequences have the same residues at the same positions in an alignment, often expressed as a percentage. The expectation value or expect value represents the number of different alignments with scores equivalent to or better that is expected to occur in a database search by chance. The lower the E value, the more significant the score and the alignment. The bitscore is derived from the raw alignment score, taking the statistical properties of the scoring system into account. Because bitscores are normalized with respect to the scoring system, they can be used to compare alignment scores from different searches. In addition, they provide finer resolution of differences among similar proteins than the expectation score. 
+
+
+Q16: What are the URLs for all the ontologies in CARD? 
+
+A: Antibiotic resistance Ontology (ARO):
+  /aro/accession e.g https://card.mcmaster.ca/aro/3003689 
+  Relationship Ontology (RO):
+  /ro/accession e.g https://card.mcmaster.ca/ro/is_a 
+  Model Ontology (MO): 
+  /mo/accession e.g https://card.mcmaster.ca/mo/0000009 
+  NCBI Taxonomy Ontology (NCBITaxon):
+  /ncbitaxon/accession e.g https://card.mcmaster.ca/ncbitaxon/570 
+  Gene Ontology (GO):
+  /go/accession e.g https://card.mcmaster.ca/go/0022804
+  
+  
+Q17: How can I download the latest software or data without using the download page? 
+
+A: Download latest data:
+  /latest/data e.g https://card.mcmaster.ca/latest/data 
+  Download latest software:
+  /latest/software e.g https://card.mcmaster.ca/latest/software
