@@ -9,9 +9,9 @@ Frequently Asked Questions pertaining to CARD usage, CARD website navigation and
 </details>
 
 <details closed>
-  <summary>Q2: How do I contact the CARD curators or developers?</summary? 
-    <br>
-    A: You can contact the CARD curators or developers directly at card@mcmaster.ca, Twitter at @arpcard, or at GitHub.
+  <summary>Q2: How do I contact the CARD curators or developers?</summary> 
+  <br>
+  A: You can contact the CARD curators or developers directly at card@mcmaster.ca, Twitter at @arpcard, or at GitHub.
 </details>
 
 <details closed>
