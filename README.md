@@ -98,24 +98,38 @@ Frequently Asked Questions pertaining to CARD usage, CARD website navigation and
   <summary>Q16: What are the URLs for all the ontologies in CARD?</summary>
   <br>
   A: Antibiotic resistance Ontology (ARO):
+  
     /aro/accession e.g https://card.mcmaster.ca/aro/3003689 
+    
   Relationship Ontology (RO):
+  
     /ro/accession e.g https://card.mcmaster.ca/ro/is_a 
+    
   Model Ontology (MO): 
+  
     /mo/accession e.g https://card.mcmaster.ca/mo/0000009 
+    
   NCBI Taxonomy Ontology (NCBITaxon):
+  
     /ncbitaxon/accession e.g https://card.mcmaster.ca/ncbitaxon/570 
+    
   Gene Ontology (GO):
+  
     /go/accession e.g https://card.mcmaster.ca/go/0022804
+    
 </details>
 
 <details closed>
   <summary>Q17: How can I download the latest software or data without using the download page?</summary>
   <br>
   A: Download latest data:
+  
     /latest/data e.g https://card.mcmaster.ca/latest/data 
+    
   Download latest software:
+  
     /latest/software e.g https://card.mcmaster.ca/latest/software
+    
 </details>
 
 </p>
