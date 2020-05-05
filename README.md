@@ -141,7 +141,7 @@ Frequently Asked Questions pertaining to CARD usage, CARD website navigation and
 <details closed>
   <summary>Q19: How do I use the RGI tool on the CARD website?</summary>
   <br>
-  A: The FAQ github repository contains a [PDF](# https://github.com/arpcard/FAQ/blob/master/RGI%20WEB%20USAGE%20MANUAL.pdf) explaining the step-by-step process of accessing the RGI webtool.
+  A: The FAQ github repository contains a PDF explaining the step-by-step process of accessing the RGI webtool.
 </details>
 
 </p>
