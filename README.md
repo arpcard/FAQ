@@ -144,5 +144,23 @@ Frequently Asked Questions pertaining to CARD usage, CARD website navigation and
   A: The FAQ github repository contains a PDF explaining the step-by-step process of accessing the RGI webtool.
 </details>
 
+<details closed>
+  <summary>Q20: I want the Resistomes and Varian. Where can I find it?</summary>
+  <br>
+  A: You can find the Resistomes and Variant at https://card.mcmaster.ca/resistomes.
+</details>
+
+<details closed>
+  <summary>Q21: How can I help with CARD?</summary>
+  <br>
+  A: Any problems you find in CARD, you can post an issue at https://github.com/arpcard/amr_curation/issue.
+</details>
+
+<details closed>
+  <summary>Q22: I am having problems running RGI, what do I do?</summary>
+  <br>
+  A: Please ensure that you have all the necessary dependencies on your device. Dependencies are listed at https://github.com/arpcard/rgi. Also ensure that you've installed it correctly. If assistance is still required, please email us at card@mcmaster.ca. Be sure to include detailed information how your process, a snapshot of your input file, your error, and anything that you believe is important to know. The more you tell us, the better we can help you.
+</details>
+
 </p>
 
