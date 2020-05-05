@@ -162,5 +162,11 @@ Frequently Asked Questions pertaining to CARD usage, CARD website navigation and
   A: Please ensure that you have all the necessary dependencies on your device. Dependencies are listed at https://github.com/arpcard/rgi. Also ensure that you've installed it correctly. If assistance is still required, please email us at card@mcmaster.ca. Be sure to include detailed information how your process, a snapshot of your input file, your error, and anything that you believe is important to know. The more you tell us, the better we can help you.
 </details>
 
+<details closed>
+  <summary>Q23: I have a windows PC. How do I run RGI?</summary>
+  <br>
+  A: Windows is not supported by RGI. Please use MacOS or Linux. Alternatively, if you have access to a remote virtual environment, you may use that instead.
+</details>
+
 </p>
 
