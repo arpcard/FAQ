@@ -6,7 +6,7 @@ Frequently Asked Questions pertaining to CARD usage, CARD website navigation and
 **TABLE OF CONTENTS**
 
 1. [CARD FAQs](#card-faqs)
-2. [RGI (Resistance Gene Identifier) FAQs](#rgi-(resistance-gene-identifier)-faqs)
+2. [RGI FAQs](#rgi-faqs)
 3. [ARO DOWNLOAD FAQs](#aro-download-faqs)
 
 ---
@@ -76,7 +76,7 @@ A: Any problems you find in CARD, you can post an issue at https://github.com/ar
 
 ---
 
-# **RGI (Resistance Gene Identifier) FAQs**
+# **RGI FAQs**
 
 <details closed>
 <summary>Q1: I am having problems running RGI, what do I do?</summary>
