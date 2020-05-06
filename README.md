@@ -5,13 +5,13 @@ Frequently Asked Questions pertaining to CARD usage, CARD website navigation and
 
 **TABLE OF CONTENTS**
 
-1. [CARD FAQs](#card-faqs)
-2. [RGI (Resistance Gene Identifier) FAQs](#rgi-(resistance-gene-identifier)-faqs)
-3. [ARO DOWNLOAD FAQs](#aro-download-faqs)
+1. [CARD FAQs](#-card-faqs)
+2. [RGI (Resistance Gene Identifier) FAQs](#-rgi-(resistance-gene-identifier)-faqs)
+3. [ARO DOWNLOAD FAQs](#-aro-download-faqs)
 
 ---
 
-**CARD FAQs**
+# **CARD FAQs**
 <p>
 <details closed>
 <summary>Q1: How do I cite CARD?</summary>
@@ -76,7 +76,7 @@ A: Any problems you find in CARD, you can post an issue at https://github.com/ar
 
 ---
 
-**RGI (Resistance Gene Identifier) FAQs**
+# **RGI (Resistance Gene Identifier) FAQs**
 
 <details closed>
 <summary>Q1: I am having problems running RGI, what do I do?</summary>
@@ -139,7 +139,7 @@ A: From the NCBI BLAST Glossary, percent identity is the extent to which two (nu
 
 ---
 
-**ARO DOWNLOAD FAQs**
+# **ARO DOWNLOAD FAQs**
 <p>
 <details closed>
 <summary>Q1: What are the URLs for all the ontologies in CARD?</summary>
