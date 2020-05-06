@@ -131,7 +131,7 @@ Frequently Asked Questions pertaining to CARD usage, CARD website navigation and
 </p>
 <p>
 <details closed>
-  <summary> * DOWNLOAD FAQ</summary>
+  <summary> * ARO DOWNLOAD FAQ</summary>
   <br>
   <details closed>
     <summary>Q1: What are the URLs for all the ontologies in CARD?</summary>
