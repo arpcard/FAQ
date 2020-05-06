@@ -2,7 +2,7 @@
 Frequently Asked Questions pertaining to CARD usage, CARD website navigation and RGI webtool usage.
 <p>
 <details closed>
-  <summary>**CARD FAQ**</summary>
+  <summary>CARD FAQ</summary>
   <br>
   <details closed>
     <summary>Q1: How do I cite CARD?</summary>
@@ -67,7 +67,7 @@ Frequently Asked Questions pertaining to CARD usage, CARD website navigation and
 </p>
 <p>
 <details closed>
-  <summary>**RGI(Resistance Gene Identifier) FAQ**</summary>
+  <summary>RGI(Resistance Gene Identifier) FAQ</summary>
   <br>
   
   <details closed>
@@ -131,7 +131,7 @@ Frequently Asked Questions pertaining to CARD usage, CARD website navigation and
 </p>
 <p>
 <details closed>
-  <summary>**DOWNLOAD FAQ**</summary>
+  <summary>DOWNLOAD FAQ</summary>
   <br>
   <details closed>
     <summary>Q1: What are the URLs for all the ontologies in CARD?</summary>
