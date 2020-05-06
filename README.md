@@ -171,7 +171,7 @@ Frequently Asked Questions pertaining to CARD usage, CARD website navigation and
 
   </details>
   <details closed>
-    <summary>Q3: I want the Resistomes and Varian. Where can I find it?</summary>
+    <summary>Q3: I want the Resistomes and Variants. Where can I find it?</summary>
     <br>
     A: You can find the Resistomes and Variant at https://card.mcmaster.ca/resistomes.
   </details>
