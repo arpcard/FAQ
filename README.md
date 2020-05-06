@@ -5,9 +5,9 @@ Frequently Asked Questions pertaining to CARD usage, CARD website navigation and
 
 **TABLE OF CONTENTS**
 
-1. [CARD FAQs](#-card-faqs)
-2. [RGI (Resistance Gene Identifier) FAQs](#-rgi-(resistance-gene-identifier)-faqs)
-3. [ARO DOWNLOAD FAQs](#-aro-download-faqs)
+1. [CARD FAQs](#card-faqs)
+2. [RGI (Resistance Gene Identifier) FAQs](#rgi-(resistance-gene-identifier)-faqs)
+3. [ARO DOWNLOAD FAQs](#aro-download-faqs)
 
 ---
 
