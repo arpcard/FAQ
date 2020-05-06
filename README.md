@@ -67,7 +67,7 @@ Frequently Asked Questions pertaining to CARD usage, CARD website navigation and
 </p>
 <p>
 <details closed>
-  <summary>Resistance Gene Identifier FAQ</summary>
+  <summary>RGI(Resistance Gene Identifier) FAQ</summary>
   <br>
   
   <details closed>
