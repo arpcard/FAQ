@@ -137,6 +137,12 @@ A: From the NCBI BLAST Glossary, percent identity is the extent to which two (nu
 </details>
 </p>
 
+<details closed>
+<summary>Q11: How do I submit a bug report for RGI?</summary>
+<br>
+A: Go to the https://github.com/arpcard/rgi/issues page and click new issue. On this page select the Bug Report Template. Follow the instructions on the template and input all information instructed or any that is deemed important. Click submit and wait until the CARD help-desk responds.
+</details>
+</p>
 ---
 
 # **ARO DOWNLOAD FAQs**
