@@ -5,9 +5,19 @@ Frequently Asked Questions pertaining to CARD usage, CARD website navigation and
 
 **TABLE OF CONTENTS**
 
-1. [CARD FAQs](#card-faqs)
-2. [RGI FAQs](#rgi-faqs)
-3. [ARO DOWNLOAD FAQs](#aro-download-faqs)
+1. [Key Documentation](#documentation)
+2. [CARD FAQs](#card-faqs)
+3. [RGI FAQs](#rgi-faqs)
+4. [ARO DOWNLOAD FAQs](#aro-download-faqs)
+
+---
+
+# **RGI FAQs**
+
+* Alcock et al. 2020. CARD 2020: Antibiotic resistome surveillance with the Comprehensive Antibiotic Resistance Database. Nucleic Acids Research, 48, D517-D525. [PMID 31665441](https://pubmed.ncbi.nlm.nih.gov/31665441/)
+* [Resistome Gene Identifier software documentation](https://github.com/arpcard/rgi)
+* [CARD Copyrights & Disclaimers](https://card.mcmaster.ca/about)
+* [State of the CARD 2021 Presentations & Demonstrations](https://github.com/arpcard/state-of-the-card-2021)
 
 ---
 
@@ -15,7 +25,7 @@ Frequently Asked Questions pertaining to CARD usage, CARD website navigation and
 <details closed>
 <summary>Q1: How do I cite CARD?</summary>
 <br>
-A: Alcock et al. 2020. CARD 2020: antibiotic resistome surveillance with the Comprehensive Antibiotic Resistance Database. Nucleic Acids Research, 48, D517-D525.
+A: Alcock et al. 2020. CARD 2020: antibiotic resistome surveillance with the Comprehensive Antibiotic Resistance Database. Nucleic Acids Research, 48, D517-D525. [PMID 31665441](https://pubmed.ncbi.nlm.nih.gov/31665441/)
 </details>
 
 <details closed>
@@ -49,6 +59,12 @@ A: The CARD is now more tightly focussed on antimicrobial resistance (AMR) refer
 </details>
 
 <details closed>
+<summary>Q7: What are CARD detection models and how are bitscore cut-offs determined?</summary>
+<br>
+A: CARD now organizes reference AMR gene sequences and mutations in the context of bioinformatics models, which are listed here: https://card.mcmaster.ca/ontology/40323. These model types are discussed in detail in Alcock et al. 2020 [PMID 31665441](https://pubmed.ncbi.nlm.nih.gov/31665441/). The most frequently used model type is the Protein Homolog Model for presence or absence of acquired resistance genes, such as beta-lactamases (see this thread on how CARD determines bitscore cutoffs: https://github.com/arpcard/rgi/issues/140). The second most frequently used model type is the Protein Variant Model for detection of intrinsic genes that have acquired mutations conferring resistance.
+</details>
+
+<details closed>
 <summary>Q8: How do I find a list of all resistance genes in a particular organism?</summary>
 <br>
 A: CARD now provides annotated genomes, plasmids, and whole-genome shotgun assemblies in the Genomes & Variants section.
@@ -57,7 +73,7 @@ A: CARD now provides annotated genomes, plasmids, and whole-genome shotgun assem
 <details closed>
 <summary>Q9: For intrinsic resistance genes for which resistance is conferred by specific mutations, does CARD include all known mutant sequences?</summary>
 <br>
-A: The CARD does not contain complete sequences of resistant mutants, due to the fact the individual mutations are often reported in the literature without the complete mutant gene sequence being deposited in GenBank. Instead, the CARD maintains a complete list of all resistance SNPs relative to a reference sequence, which may either be a reported mutant sequence or a wild-type sequence. As such, it is important that SNP mapping be included in analysis of any genes that require mutation to confer resistance. This step is included in the Resistance Gene Identifier but not naive BLAST analyses. Computational predicted sequence variants are available in the Genomes & Variants section.
+A: The CARD does not contain complete sequences of resistant mutants, due to the fact the individual mutations are often reported in the literature without the complete mutant gene sequence being deposited in GenBank. Instead, the CARD maintains a complete list of all resistance SNPs relative to a reference sequence, which may either be a reported mutant sequence or a wild-type sequence. As such, it is important that SNP mapping be included in analysis of any genes that require mutation to confer resistance. This step is included in the Resistance Gene Identifier but not naive BLAST analyses. Computational predicted sequence variants are available in the Resistomes, Variants, & Prevalence section.
 </details>
 
 <details closed>
@@ -146,7 +162,6 @@ A: Go to the https://github.com/arpcard/rgi/issues page and click new issue. On 
 ---
 
 # **ARO DOWNLOAD FAQs**
-<p>
 <details closed>
 <summary>Q1: What are the URLs for all the ontologies in CARD?</summary>
 <br>
@@ -190,5 +205,4 @@ Download latest software:
 <br>
 A: You can find the Resistomes and Variant at https://card.mcmaster.ca/resistomes.
 </details>
-</p>
 
