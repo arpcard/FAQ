@@ -61,7 +61,7 @@ A: The CARD is now more tightly focussed on antimicrobial resistance (AMR) refer
 <details closed>
 <summary>Q7: What are CARD detection models and how are bitscore cut-offs determined?</summary>
 <br>
-A: CARD now organizes reference AMR gene sequences and mutations in the context of bioinformatics models, which are listed here: https://card.mcmaster.ca/ontology/40323. These model types are discussed in detail in Alcock et al. 2020 [PMID 31665441](https://pubmed.ncbi.nlm.nih.gov/31665441/). The most frequently used model type is the Protein Homolog Model for presence or absence of acquired resistance genes, such as beta-lactamases (see this thread on how CARD determines bitscore cutoffs: https://github.com/arpcard/rgi/issues/140). The second most frequently used model type is the Protein Variant Model for detection of intrinsic genes that have acquired mutations conferring resistance.
+A: CARD now organizes reference AMR gene sequences and mutations in the context of bioinformatics models, which are listed here: https://card.mcmaster.ca/ontology/40323. These model types are discussed in detail in Alcock et al. 2020. The most frequently used model type is the Protein Homolog Model for presence or absence of acquired resistance genes, such as beta-lactamases (see this thread on how CARD determines bitscore cutoffs: https://github.com/arpcard/rgi/issues/140). The second most frequently used model type is the Protein Variant Model for detection of intrinsic genes that have acquired mutations conferring resistance.
 </details>
 
 <details closed>
