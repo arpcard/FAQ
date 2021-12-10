@@ -12,7 +12,7 @@ Frequently Asked Questions pertaining to CARD usage, CARD website navigation and
 
 ---
 
-# **RGI FAQs**
+# **KEY DOCUMENTATION**
 
 * Alcock et al. 2020. CARD 2020: Antibiotic resistome surveillance with the Comprehensive Antibiotic Resistance Database. Nucleic Acids Research, 48, D517-D525. [PMID 31665441](https://pubmed.ncbi.nlm.nih.gov/31665441/)
 * [Resistome Gene Identifier software documentation](https://github.com/arpcard/rgi)
