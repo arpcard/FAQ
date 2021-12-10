@@ -5,7 +5,7 @@ Frequently Asked Questions pertaining to CARD usage, CARD website navigation and
 
 **TABLE OF CONTENTS**
 
-1. [Key Documentation](#documentation)
+1. [Key Documentation](#key-documentation)
 2. [CARD FAQs](#card-faqs)
 3. [RGI FAQs](#rgi-faqs)
 4. [ARO DOWNLOAD FAQs](#aro-download-faqs)
