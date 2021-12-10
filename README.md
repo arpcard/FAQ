@@ -12,7 +12,6 @@ Frequently Asked Questions pertaining to CARD usage, CARD website navigation and
 ---
 
 # **CARD FAQs**
-<p>
 <details closed>
 <summary>Q1: How do I cite CARD?</summary>
 <br>
@@ -37,13 +36,11 @@ A: The CARD is curated by a group of experts in the area of antimicrobial resist
 A: The CARD is updated monthly.
 </details>
 
-
 <details closed>
 <summary>Q5: What data can be included? Can I add unpublished data?</summary>
 <br>
 A: Only peered reviewed, published data that is also associated with a GenBank accession can be included in the curated CARD data with the exception of beta-lactamases. We can additionally provide genome or whole-genome shotgun assembly bulk annotation for private data sets using the Resistance Gene Identifier, please contact card@mcmaster.ca.
 </details>
-
 
 <details closed>
 <summary>Q6: What has changed since the first version of the CARD, as published in McArthur et al. 2013. The Comprehensive Antibiotic Resistance Database. Antimicrobial Agents and Chemotherapy, 57, 3348-3357?</summary>
@@ -52,27 +49,28 @@ A: The CARD is now more tightly focussed on antimicrobial resistance (AMR) refer
 </details>
 
 <details closed>
-<summary>Q7: How do I find a list of all resistance genes in a particular organism?</summary>
+<summary>Q8: How do I find a list of all resistance genes in a particular organism?</summary>
 <br>
 A: CARD now provides annotated genomes, plasmids, and whole-genome shotgun assemblies in the Genomes & Variants section.
 </details>
+
 <details closed>
-<summary>Q8: For intrinsic resistance genes for which resistance is conferred by specific mutations, does CARD include all known mutant sequences?</summary>
+<summary>Q9: For intrinsic resistance genes for which resistance is conferred by specific mutations, does CARD include all known mutant sequences?</summary>
 <br>
 A: The CARD does not contain complete sequences of resistant mutants, due to the fact the individual mutations are often reported in the literature without the complete mutant gene sequence being deposited in GenBank. Instead, the CARD maintains a complete list of all resistance SNPs relative to a reference sequence, which may either be a reported mutant sequence or a wild-type sequence. As such, it is important that SNP mapping be included in analysis of any genes that require mutation to confer resistance. This step is included in the Resistance Gene Identifier but not naive BLAST analyses. Computational predicted sequence variants are available in the Genomes & Variants section.
 </details>
 
 <details closed>
-<summary>Q9: How are Minimum Inhibitory Concentration (MIC) data curated?</summary>
+<summary>Q10: How are Minimum Inhibitory Concentration (MIC) data curated?</summary>
 <br>
 A: The CARD does not yet curate MIC data directly, but instead records the resistance profile of resistance genes. This is performed using the categorical confers_resistance_to relationship within the Antibiotic Resistance Ontology, e.g. beta-lactamases confers_resistance_to beta-lactams, as well as the specific confers_resistance_to_drug relationship, e.g. AAC(1) confers_resistance_to_drug apramycin. The latter requires constant curatorial effort and may have gaps - please let us know if find such missing data within the CARD.
 </details>
+
 <details closed>
-<summary>Q10: How can I help with CARD?</summary>
+<summary>Q11: How can I help with CARD?</summary>
 <br>
 A: Any problems you find in CARD, you can post an issue at https://github.com/arpcard/amr_curation/issue.
 </details>
-</p>
 
 ---
 
@@ -89,16 +87,19 @@ A: Please ensure that you have all the necessary dependencies on your device. De
 <br>
 A: Windows is not supported by RGI. Please use MacOS or Linux. Alternatively, if you have access to a remote virtual environment, you may use that instead.
 </details>
+
 <details closed>
 <summary>Q3: Can I use the Resistance Gene Identifier offline?</summary>
 <br>
 A: Yes, the Resistance Gene Identifier can now be downloaded as command-line software.
 </details>
+
 <details closed>
 <summary>Q4: How can I install RGI on my own device?</summary>
 <br>
 A: Please refer to https://github.com/arpcard/rgi for documentation on RGI functionality and installation processes.
 </details>
+
 <details closed>
 <summary>Q5: How do I use the RGI tool on the CARD website?</summary>
 <br>
@@ -110,7 +111,6 @@ A: The FAQ github repository contains a PDF explaining the step-by-step process 
 <br>
 A: Yes, the SNP mapping data is now available in the Downloads sections within the card.json and snps.txt files.
 </details>
-
 
 <details closed>
 <summary>Q7: Can CARD and the RGI accurately predict antibiogram?</summary>
@@ -184,6 +184,7 @@ Download latest software:
 /latest/software e.g https://card.mcmaster.ca/latest/software
 
 </details>
+
 <details closed>
 <summary>Q3: I want the Resistomes and Variants. Where can I find it?</summary>
 <br>
