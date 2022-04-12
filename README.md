@@ -172,14 +172,20 @@ A: Yes, the RGI can analyze metagenomics data at the command line. Full details 
 <br>
 A: From the NCBI BLAST Glossary, percent identity is the extent to which two (nucleotide or amino acid) sequences have the same residues at the same positions in an alignment, often expressed as a percentage. The expectation value or expect value represents the number of different alignments with scores equivalent to or better that is expected to occur in a database search by chance. The lower the E value, the more significant the score and the alignment. The bitscore is derived from the raw alignment score, taking the statistical properties of the scoring system into account. Because bitscores are normalized with respect to the scoring system, they can be used to compare alignment scores from different searches. In addition, they provide finer resolution of differences among similar proteins than the expectation score.
 </details>
-</p>
 
 <details closed>
-<summary>Q11: How do I submit a bug report for RGI?</summary>
+<summary>Q11: Can you use Resistome & Variants <i>in silico</i> predictions in RGI <i>main</i> to annotate assembly contigs?</summary>
+<br>
+A: The alleles in CARD's Resistomes & Variants dataset are <i>in silico</i> prediction of AMR alleles by running RGI against genomic data available in GenBank. They are not experimentally characterized genes. While they can be [used by <i>RGI bwt</i> as an additional reference set for short read alignment](https://github.com/arpcard/rgi#analyzing-metagenomic-reads-beta-testing), they cannot be used by <i>RGI main</i> to annotate genome assemblies. <i>RGI main</i> uses hand-curated AMR gene detection models involving BLAST, bitscore cut-offs, reference sequences, and curated SNP lists, i.e. much more than read alignment to reference sequences. The underlying reference sequences are from experimentally validated alleles reported in the scientific literature, e.g. [Sser_gyrB_FLO](https://card.mcmaster.ca/ontology/39891). RGI's [Perfect / Strict / Paradigm and BLAST](https://github.com/arpcard/rgi#analyzing-genomes-genome-assemblies-metagenomic-contigs-or-proteomes) ensures that all possible antibiotic resistance genes in CARD are annotated for genome assemblies. In contrast, short read alignment under <i>RGI bwt</i> requires close sequence similarity for annotation and the broader sequence variation in CARD's Resistomes & Variants can [overcome this limitation](https://github.com/arpcard/rgi#analyzing-metagenomic-reads-beta-testing) if the canonical references in CARD's detection models are from a different organism that you have sequenced.
+</details>
+
+<details closed
+<summary>Q12: How do I submit a bug report for RGI?</summary>
 <br>
 A: Go to the https://github.com/arpcard/rgi/issues page and click new issue. On this page select the Bug Report Template. Follow the instructions on the template and input all information instructed or any that is deemed important. Click submit and wait until the CARD help-desk responds.
 </details>
 </p>
+
 ---
 
 # **ARO DOWNLOAD FAQs**
