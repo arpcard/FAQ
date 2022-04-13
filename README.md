@@ -31,7 +31,7 @@ A: Alcock et al. 2020. CARD 2020: antibiotic resistome surveillance with the Com
 <details closed>
 <summary>Q2: How do I contact the CARD curators or developers?</summary> 
 <br>
-A: You can contact the CARD curators or developers directly at card@mcmaster.ca, Twitter at @arpcard, or at GitHub.
+A: You can contact the CARD curators or developers directly at card@mcmaster.ca, Twitter at @arpcard, or at GitHub (https://github.com/arpcard/rgi).
 </details>
 
 <details closed>
@@ -164,7 +164,7 @@ A: If a hit is PERFECT, the predicted gene perfectly matches a known resistance 
 <details closed>
 <summary>Q9: Does the Resistance Gene Identifier (RGI) work for metagenomics data?</summary>
 <br>
-A: Yes, the RGI can analyze metagenomics data at the command line. Full details are available at GitHub.
+A: Yes, the RGI can analyze metagenomics data at the command line. Full details are available at GitHub: https://github.com/arpcard/rgi.
 </details>
 
 <details closed>
@@ -180,7 +180,13 @@ A: The alleles in CARD's Resistomes & Variants dataset are <i>in silico</i> pred
 </details>
 
 <details closed>
-<summary>Q12: How do I submit a bug report for RGI?</summary>
+<summary>Q12: What RGI settings are best for a Metagenome-Assembled Genome (MAG)?</summary>
+<br>
+A: If the MAG is long and of high quality assembly, default RGI analysis is more than sufficient to predict Perfect / Strict / Loose hits to the CARD AMR detection models. For shorter or fragmentary assemblies, we suggest using RGI <i>main</i> or the RGI web portal with the <i>Low Quality/Coverage<i> settings to allow RGI to include partial open reading frames (ORFs) and ORFs with errors. To additionally compensate for possible evolutionary distance between the MAGs and the organisms curated in CARD, we suggest examining Loose hits for possible new/divergent antimicrobial resistance genes. As there are often many Loose hits, sorting results by % identity or HSP length can help, but additional use of the <i>Include Nudge<i> option will convert Loose hits of any length with at least 95% identity to CARD reference sequences to Strict hits if you wish to use a broader Strict criteria. See https://github.com/arpcard/rgi to review the Perfect / Strict / Loose paradigm.
+</details>
+
+<details closed>
+<summary>Q13: How do I submit a bug report for RGI?</summary>
 <br>
 A: Go to the https://github.com/arpcard/rgi/issues page and click new issue. On this page select the Bug Report Template. Follow the instructions on the template and input all information instructed or any that is deemed important. Click submit and wait until the CARD help-desk responds.
 </details>
