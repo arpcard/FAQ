@@ -47,7 +47,7 @@ A: The CARD is updated approximately monthly.
 </details>
 
 <details closed>
-<summary>Q5: What data can be included? Can I add unpublished data?</summary>
+<summary>Q5: What data is included in CARD? Can I add unpublished data?</summary>
 <br>
 A: Only published AMR genes and mutations, with subsequent submission of sequence to GenBank, with clear evidence of elevated MICs are curated into CARD.
 The only exception is beta-lactamase genes, which are being named faster than they can be validated. Alcock et al. (2020) provided details on CARD's curation paradigm. We can additionally provide genome or whole-genome shotgun assembly bulk annotation for private data sets using the Resistance Gene Identifier, please contact card@mcmaster.ca.
