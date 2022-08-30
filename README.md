@@ -62,7 +62,7 @@ A: The CARD is now more tightly focussed on antimicrobial resistance (AMR) refer
 <details closed>
 <summary>Q7: What are CARD detection models and how are bitscore cut-offs determined?</summary>
 <br>
-A: CARD now organizes reference AMR gene sequences and mutations in the context of bioinformatics models, which are listed here: https://card.mcmaster.ca/ontology/40323. These model types are discussed in detail in Alcock et al. 2020. The most frequently used model type is the Protein Homolog Model for presence or absence of acquired resistance genes, such as beta-lactamases (see this thread on how CARD determines bitscore cutoffs: https://github.com/arpcard/rgi/issues/140). The second most frequently used model type is the Protein Variant Model for detection of intrinsic genes that have acquired mutations conferring resistance.
+A: CARD now organizes reference AMR gene sequences and mutations in the context of bioinformatics models, which are listed here: https://card.mcmaster.ca/ontology/40323. These model types are discussed in detail in Alcock et al. 2020. The most frequently used model type is the Protein Homolog Model for presence or absence of acquired resistance genes, such as beta-lactamases (see this thread on how CARD determines bitscore cutoffs: https://github.com/arpcard/rgi/issues/140). The second most frequently used model type is the Protein Variant Model for detection of intrinsic genes that have acquired mutations conferring resistance. The [RGI Documentation](https://github.com/arpcard/rgi) gives detailed information on how CARD models are used.
 </details>
 
 <details closed>
@@ -88,7 +88,7 @@ https://card.mcmaster.ca/latest/data
 <details closed>
 <summary>Q9: How do I find a list of all resistance genes in a particular organism?</summary>
 <br>
-A: CARD now provides annotated genomes, plasmids, and whole-genome shotgun assemblies in the Genomes & Variants section.
+A: CARD now provides annotated genomes, plasmids, and whole-genome shotgun assemblies in the Resistomes, Variants, & Prevalence section.
 </details>
 
 <details closed>
@@ -100,7 +100,7 @@ A: The CARD does not contain complete sequences of resistant mutants, due to the
 <details closed>
 <summary>Q11: How are Minimum Inhibitory Concentration (MIC) data curated?</summary>
 <br>
-A: The CARD does not yet curate MIC data directly, but instead records the resistance profile of resistance genes. This is performed using the categorical confers_resistance_to relationship within the Antibiotic Resistance Ontology, e.g. beta-lactamases confers_resistance_to beta-lactams, as well as the specific confers_resistance_to_drug relationship, e.g. AAC(1) confers_resistance_to_drug apramycin. The latter requires constant curatorial effort and may have gaps - please let us know if find such missing data within the CARD.
+A: The CARD does not yet curate MIC data directly, but instead records the resistance profile of resistance genes. This is performed using the categorical confers_resistance_to_drug_class relationship within the Antibiotic Resistance Ontology, e.g. beta-lactamases confers_resistance_to_drug_class beta-lactams, as well as the specific confers_resistance_to_antibiotic relationship, e.g. AAC(1) confers_resistance_to_antibiotic apramycin. The latter requires constant curatorial effort and may have gaps - please let us know if find such missing data within the CARD.
 </details>
 
 <details closed>
@@ -152,13 +152,13 @@ A: Yes, the SNP mapping data is now available in the Downloads sections within t
 <details closed>
 <summary>Q7: Can CARD and the RGI accurately predict antibiogram?</summary>
 <br>
-A: While the CARD systematically curates categorical confers_resistance_to relationships within the Antibiotic Resistance Ontology, e.g. beta-lactamases confers_resistance_to beta-lactams, curation of specific confers_resistance_to_drug relationships, e.g. AAC(1) confers_resistance_to_drug apramycin, is rarely complete due to the volume of literature to curate, variation in MICs for genes among pathogens, and changing clinical breakpoints. As such, curation of confers_resistance_to_drug relationships for accurate prediction of antibiogram is currently inconsistent throughout the CARD and our RGI software is focussed primarily upon accurate prediction of resistome, not antibiogram.
+A: While the CARD systematically curates categorical confers_resistance_to_drug_class relationships within the Antibiotic Resistance Ontology, e.g. beta-lactamases confers_resistance_to_drug_class beta-lactams, curation of specific confers_resistance_to_antibiotic relationships, e.g. AAC(1) confers_resistance_to_antibiotic apramycin, is rarely complete due to the volume of literature to curate, variation in MICs for genes among pathogens, and changing clinical breakpoints. As such, curation of confers_resistance_to_antibiotic relationships for accurate prediction of antibiogram is currently inconsistent throughout the CARD and our RGI software is focussed primarily upon accurate prediction of resistome, not antibiogram.
 </details>
 
 <details closed>
 <summary>Q8: Are both PERFECT and STRICT hits with the Resistance Gene Identifier (RGI) functional AMR genes?</summary>
 <br>
-A: If a hit is PERFECT, the predicted gene perfectly matches a known resistance gene curated in the CARD at the amino acid level (including SNPs if that is part of the detection model). Only published AMR genes, with subsequent submission of sequence to GenBank, with clear evidence of elevated MICs are curated into CARD. However, a PERFECT hit does not indicate if the AMR gene is expressed or if it results in elevated MIC in the pathogen of interest. Activity of AMR genes can be pathogen and strain specific. STRICT hits are not exact matches to a published AMR sequence, but are similar to CARD reference sequences within detection model cut-offs defined by the CARD curators (see this thread on how CARD determines bitscore cutoffs: https://github.com/arpcard/rgi/issues/140). STRICT hits are likely functional, but those with low percent similarity to the curated CARD reference sequence may require experimental verification.
+A: If a hit is PERFECT, the predicted gene perfectly matches a known resistance gene curated in the CARD at the amino acid level (including SNPs if that is part of the detection model). Only published AMR genes, with subsequent submission of sequence to GenBank, with clear evidence of elevated MICs are curated into CARD. However, a PERFECT hit does not indicate if the AMR gene is expressed or if it results in elevated MIC in the pathogen of interest. Activity of AMR genes can be pathogen and strain specific. STRICT hits are not exact matches to a published AMR sequence, but are similar to CARD reference sequences within detection model cut-offs defined by the CARD curators (see this thread on how CARD determines bitscore cutoffs: https://github.com/arpcard/rgi/issues/140). STRICT hits are likely functional, but those with low percent similarity to the curated CARD reference sequence may require experimental verification. The [RGI Documentation](https://github.com/arpcard/rgi) gives detailed information on Perfect / Strict / Loose paradigm.
 </details>
 
 <details closed>
@@ -190,11 +190,11 @@ A: If the MAG is long and of high quality assembly, default RGI analysis is more
 <br>
 A: Go to the https://github.com/arpcard/rgi/issues page and click new issue. On this page select the Bug Report Template. Follow the instructions on the template and input all information instructed or any that is deemed important. Click submit and wait until the CARD help-desk responds.
 </details>
-</p>
 
 ---
 
 # **ARO DOWNLOAD FAQs**
+
 <details closed>
 <summary>Q1: What are the URLs for all the ontologies in CARD?</summary>
 <br>
