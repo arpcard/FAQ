@@ -12,9 +12,9 @@ Frequently Asked Questions pertaining to CARD usage, CARD website navigation and
 
 ---
 
-# **KEY DOCUMENTATION**
+# **KEY DOCUMENTTION**
 
-* Alcock et al. 2020. CARD 2020: Antibiotic resistome surveillance with the Comprehensive Antibiotic Resistance Database. Nucleic Acids Research, 48, D517-D525. [PMID 31665441](https://pubmed.ncbi.nlm.nih.gov/31665441/)
+* Alcock et al. 2023. CARD 2023: Expanded Curation, Support for Machine Learning, and Resistome Prediction at the Comprehensive Antibiotic Resistance Database. Nucleic Acids Research, in press. [PMID 36263822](https://pubmed.ncbi.nlm.nih.gov/36263822/)
 * [Resistome Gene Identifier software documentation](https://github.com/arpcard/rgi)
 * [CARD Copyrights & Disclaimers](https://card.mcmaster.ca/about)
 * [State of the CARD 2021 Presentations & Demonstrations](https://github.com/arpcard/state-of-the-card-2021)
@@ -25,7 +25,7 @@ Frequently Asked Questions pertaining to CARD usage, CARD website navigation and
 <details closed>
 <summary>Q1: How do I cite CARD?</summary>
 <br>
-A: Alcock et al. 2020. CARD 2020: antibiotic resistome surveillance with the Comprehensive Antibiotic Resistance Database. Nucleic Acids Research, 48, D517-D525. [PMID 31665441](https://pubmed.ncbi.nlm.nih.gov/31665441/)
+A: Alcock et al. 2023. CARD 2023: Expanded Curation, Support for Machine Learning, and Resistome Prediction at the Comprehensive Antibiotic Resistance Database. Nucleic Acids Research, in press. [PMID 36263822](https://pubmed.ncbi.nlm.nih.gov/36263822/)
 </details>
 
 <details closed>
@@ -50,7 +50,7 @@ A: The CARD is updated approximately monthly.
 <summary>Q5: What data is included in CARD? Can I add unpublished data?</summary>
 <br>
 A: Only published AMR genes and mutations, with subsequent submission of sequence to GenBank, with clear evidence of elevated MICs are curated into CARD.
-The only exception is beta-lactamase genes, which are being named faster than they can be validated. Alcock et al. (2020) provided details on CARD's curation paradigm. We can additionally provide genome or whole-genome shotgun assembly bulk annotation for private data sets using the Resistance Gene Identifier, please contact card@mcmaster.ca.
+The only exception is beta-lactamase genes, which are being named faster than they can be validated. Alcock et al. (2023) provided details on CARD's curation paradigm. We can additionally provide genome or whole-genome shotgun assembly bulk annotation for private data sets using the Resistance Gene Identifier, please contact card@mcmaster.ca.
 </details>
 
 <details closed>
@@ -62,7 +62,7 @@ A: The CARD is now more tightly focussed on antimicrobial resistance (AMR) refer
 <details closed>
 <summary>Q7: What are CARD detection models and how are bitscore cut-offs determined?</summary>
 <br>
-A: CARD now organizes reference AMR gene sequences and mutations in the context of bioinformatics models, which are listed here: https://card.mcmaster.ca/ontology/40323. These model types are discussed in detail in Alcock et al. 2020. The most frequently used model type is the Protein Homolog Model for presence or absence of acquired resistance genes, such as beta-lactamases (see this thread on how CARD determines bitscore cutoffs: https://github.com/arpcard/rgi/issues/140). The second most frequently used model type is the Protein Variant Model for detection of intrinsic genes that have acquired mutations conferring resistance. The RGI Documentation gives detailed information on how CARD models are used: https://github.com/arpcard/rgi.
+A: CARD now organizes reference AMR gene sequences and mutations in the context of bioinformatics models, which are listed here: https://card.mcmaster.ca/ontology/40323. These model types are discussed in detail in Alcock et al. 2023. The most frequently used model type is the Protein Homolog Model for presence or absence of acquired resistance genes, such as beta-lactamases (see this thread on how CARD determines bitscore cutoffs: https://github.com/arpcard/rgi/issues/140). The second most frequently used model type is the Protein Variant Model for detection of intrinsic genes that have acquired mutations conferring resistance. The RGI Documentation gives detailed information on how CARD models are used: https://github.com/arpcard/rgi.
 </details>
 
 <details closed>
