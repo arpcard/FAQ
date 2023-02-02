@@ -31,7 +31,7 @@ A: Alcock et al. 2023. CARD 2023: Expanded Curation, Support for Machine Learnin
 <details closed>
 <summary>Q2: How do I contact the CARD curators or developers?</summary> 
 <br>
-A: You can contact the CARD curators or developers directly at card@mcmaster.ca, Twitter at @arpcard, or at GitHub (https://github.com/arpcard/rgi).
+A: You can contact the CARD curators or developers directly at card@mcmaster.ca or at GitHub (https://github.com/arpcard/rgi).
 </details>
 
 <details closed>
