@@ -17,7 +17,7 @@ Frequently Asked Questions pertaining to CARD usage, CARD website navigation and
 * Alcock et al. 2023. CARD 2023: Expanded Curation, Support for Machine Learning, and Resistome Prediction at the Comprehensive Antibiotic Resistance Database. Nucleic Acids Research, 51, D690-D699. [PMID 36263822](https://pubmed.ncbi.nlm.nih.gov/36263822/)
 * [Resistome Gene Identifier software documentation](https://github.com/arpcard/rgi)
 * [CARD Copyrights & Disclaimers](https://card.mcmaster.ca/about)
-* [YouTube Video Lecture: Canadian Bioinformatics Workshops 2023 - Infectious Disease Genomic Epidemiology - Antimicrobial Resistant Gene (AMR) Analysis using CARD & RGI](https://www.youtube.com/watch?v=FvOCDlcYaTo&list=PL3izGL6oi0S8RG8vnwLXFznzJnKh8OR8F&index=6)
+* [YouTube Video Lecture: Canadian Bioinformatics Workshops 2024 - Infectious Disease Genomic Epidemiology - Antimicrobial Resistant Gene (AMR) Analysis using CARD & RGI](https://www.youtube.com/watch?v=Z4gAAYRExSg&list=PL3izGL6oi0S_e5T8qx-74WRaMR5K5U8V5&index=8)
 * [State of the CARD 2021 Presentations & Demonstrations](https://github.com/arpcard/state-of-the-card-2021)
 
 ---
