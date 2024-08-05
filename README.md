@@ -12,7 +12,7 @@ Frequently Asked Questions pertaining to CARD usage, CARD website navigation and
 
 ---
 
-# **KEY DOCUMENTTION**
+# **KEY DOCUMENTATION**
 
 * Alcock et al. 2023. CARD 2023: Expanded Curation, Support for Machine Learning, and Resistome Prediction at the Comprehensive Antibiotic Resistance Database. Nucleic Acids Research, 51, D690-D699. [PMID 36263822](https://pubmed.ncbi.nlm.nih.gov/36263822/)
 * [Resistome Gene Identifier software documentation](https://github.com/arpcard/rgi)
